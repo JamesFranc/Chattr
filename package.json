@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Basic chat app client",
   "main": "index.js",
+  "private": true,
+  "workspaces":["client", "server"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run:dev": "concurrently \"node server/server.js\" \"yarn start-client\"",
+    "start-client": "cd ./client && vue-cli-service serve"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/JamesFranc/Chattr/issues"
   },
-  "homepage": "https://github.com/JamesFranc/Chattr#readme"
+  "homepage": "https://github.com/JamesFranc/Chattr#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
 }
