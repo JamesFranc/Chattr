@@ -1,7 +1,7 @@
-# respondr 🗨️
+# respondr  🗨️
 A basic chat app
 
-## Application Structure 🏗️
+## Application Structure  🏗️
 The intent of this project is to creat a very basic chat app. This app leverages Vuejs, and NodeJS using Express and WebSockets.
 
 VueJS was chosen due to my familiarity with the library and vue-cli should give us the tooling we need to standup the front-end of this app quickly
@@ -10,7 +10,7 @@ NodeJS was chosen as our server because Express servers are quick to standup and
 
 Websockets were added for near-real time communication between the server and clients. 
 
-## How to install 💾
+## How to install  💾
 In a terminal window navigate to a directory this repo will reside, then:
 ```
 git clone https://github.com/JamesFranc/respondr.git
@@ -46,7 +46,7 @@ To test this solution:
 🎉
 
 
-## Troubleshooting tips 🗒️
+## Troubleshooting tips  🗒️
 
 If any errors are present feel free to create an issue and it will get addressed in a reasonable amount of time
 
