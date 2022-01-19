@@ -1,6 +1,8 @@
 <template>
-    <div class="message">
-        {{ messageData?.message }}
+    <div class="container">
+        <p class="message">
+            {{ messageData?.message }}
+        </p>
     </div>
 </template>
 
@@ -14,7 +16,7 @@ export default {
 </script>
 
 <style scoped>
-.message {
+/* .message {
     color: red;
-}
+} */
 </style>

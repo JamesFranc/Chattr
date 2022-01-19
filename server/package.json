@@ -5,6 +5,7 @@
   "author": "Jimmy Francis",
   "license": "MIT",
   "dependencies": {
+    "bluebird": "^3.7.2",
     "express": "^4.17.2",
     "ws": "^8.4.2"
   }

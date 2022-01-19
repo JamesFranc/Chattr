@@ -1,9 +1,12 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <ChatBox/>
 </template>
 
 <script>
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 import ChatBox from './components/ChatBox.vue'
 
 export default {

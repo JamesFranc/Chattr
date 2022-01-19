@@ -1,5 +1,5 @@
 <template>
-    <input v-model="input" @keydown.enter="sendMessage" />
+    <input class="search-bar" v-model="input" @keydown.enter="sendMessage" />
 </template>
 
 <script>
