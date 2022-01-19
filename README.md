@@ -11,8 +11,29 @@ NodeJS was chosen as our server because Express servers are quick to standup and
 Websockets were added for near-real time communication between the server and clients. 
 
 ## How to install
+In a terminal window navigate to a directory this repo will reside, then:
+`git clone https://github.com/JamesFranc/respondr.git`
+`yarn install`
+`yarn run`
 
-`yarn install && yarn run`
+The terminal should display the following output:
+```
+$ concurrently "yarn start-server" "yarn start-client"
+$ node ./server/server.js
+$ cd ./client && vue-cli-service serve
+[0] Server listening on port 3000
+[1]  INFO  Starting development server...
+[1]  DONE  Compiled successfully in 1157ms4:12:35 AM
+[1]
+[1]
+[1]   App running at:
+[1]   - Local:   http://localhost:8080/
+[1]   - Network: http://192.168.1.11:8080/
+[1]
+[1]   Note that the development build is not optimized.
+[1]   To create a production build, run yarn build.
+[1]
+```
 
 ## Troubleshooting tips
 
