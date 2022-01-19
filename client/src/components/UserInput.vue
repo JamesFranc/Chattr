@@ -1,27 +1,41 @@
 <template>
-    <input class="search-bar" v-model="input" @keydown.enter="sendMessage" />
+  <label>Type here:</label>
+  <input
+    v-model="input"
+    class="search-bar"
+    ref="input"
+    tabindex="0"
+    @keydown.enter="sendMessage"
+  />
 </template>
 
 <script>
 export default {
-  name: 'UserInput',
+  name: "UserInput",
+  emits: ["sendMessage"],
   data() {
-      return {
-          input: ''
-      }
+    return {
+      input: "",
+    };
+  },
+  updated() {
+    this.$refs.input.focus();
   },
   methods: {
-      sendMessage() {
-          console.log("sending message");
-          this.$emit('send-message', this.input);
-          this.input = '';
-      }
-  }
-}
+    sendMessage() {
+      console.log("sending message");
+      this.$emit("send-message", this.input);
+      this.input = "";
+    },
+  },
+};
 </script>
 
 <style scoped>
 .message {
-    color: red;
+  color: red;
+}
+.search-bar {
+  margin: 10px;
 }
 </style>

@@ -3,6 +3,7 @@
         <p class="message">
             {{ messageData?.message }}
         </p>
+        <slot></slot>
     </div>
 </template>
 
@@ -15,8 +16,4 @@ export default {
 }
 </script>
 
-<style scoped>
-/* .message {
-    color: red;
-} */
-</style>
+<style scoped></style>

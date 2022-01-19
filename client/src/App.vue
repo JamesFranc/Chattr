@@ -1,6 +1,7 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <ChatBox/>
+  <UserSelect v-show="user == null" @user-selected="setUser" />
+  <ChatBox v-show="user !== null" :selectedUser="user"/>
 </template>
 
 <script>
@@ -8,11 +9,22 @@ import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import ChatBox from './components/ChatBox.vue'
-
+import UserSelect from './components/UserSelect.vue'
 export default {
   name: 'App',
   components: {
-    ChatBox
+    ChatBox,
+    UserSelect
+  },
+  data() {
+    return {
+      user: null
+    }
+  },
+  methods: {
+    setUser(user) {
+      this.user = user;
+    }
   }
 }
 </script>
