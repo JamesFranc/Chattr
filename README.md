@@ -37,6 +37,14 @@ $ cd ./client && vue-cli-service serve
 [1]
 ```
 
+To test this solution:
+- open up two separate browser windows 
+- navigate each one to http://localhost:8080/
+- Select a different user in each window
+- Send messages
+- 🎉
+
+
 ## Troubleshooting tips
 
 If any errors are present feel free to create an issue and it will get addressed in a reasonable amount of time
