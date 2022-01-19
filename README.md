@@ -12,7 +12,7 @@ Websockets were added for near-real time communication between the server and cl
 
 ## How to install
 
-`npm i && npm run serve`
+`yarn install && yarn run`
 
 ## Troubleshooting tips
 
