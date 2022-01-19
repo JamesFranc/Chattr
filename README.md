@@ -39,7 +39,7 @@ $ cd ./client && vue-cli-service serve
 
 ## Troubleshooting tips
 
-You got this! If you run into any issues, create one on this repo or reach out to me using a method below
+If any errors are present feel free to create an issue and it will get addressed in a reasonable amount of time
 
 ## Contact me
 
