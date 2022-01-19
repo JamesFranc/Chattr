@@ -15,7 +15,7 @@ In a terminal window navigate to a directory this repo will reside, then:
 ```
 git clone https://github.com/JamesFranc/respondr.git
 yarn install
-yarn run
+yarn serve
 ```
 
 The terminal should display the following output:
@@ -47,6 +47,8 @@ To test this solution:
 
 
 ## Troubleshooting tips  🗒️
+
+Press `ctrl+c` two times in the same terminal window `yarn serve` was invoked. This will ensure both the server and client yarn commands are stopped.
 
 If any errors are present feel free to create an issue and it will get addressed in a reasonable amount of time
 
