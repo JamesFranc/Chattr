@@ -1,5 +1,5 @@
 {
-  "name": "chattr",
+  "name": "respondr",
   "version": "1.0.0",
   "description": "Basic chat app client",
   "main": "index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JamesFranc/Chattr.git"
+    "url": "git+https://github.com/JamesFranc/respondr.git"
   },
   "author": "Jimmy Francis",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JamesFranc/Chattr/issues"
+    "url": "https://github.com/JamesFranc/respondr/issues"
   },
-  "homepage": "https://github.com/JamesFranc/Chattr#readme",
+  "homepage": "https://github.com/JamesFranc/respondr#readme",
   "dependencies": {
     "concurrently": "^7.0.0"
   }
