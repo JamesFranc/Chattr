@@ -1,4 +1,4 @@
-# Respondr
+# respondr
 A basic chat app
 
 ## Application Structure
