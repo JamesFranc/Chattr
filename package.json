@@ -7,7 +7,7 @@
   "workspaces":["client", "server"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run:dev": "concurrently \"yarn start-server\" \"yarn start-client\"",
+    "run": "concurrently \"yarn start-server\" \"yarn start-client\"",
     "start-server": "node ./server/server.js",
     "start-client": "cd ./client && vue-cli-service serve"
   },
