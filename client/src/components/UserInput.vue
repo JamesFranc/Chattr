@@ -1,12 +1,21 @@
 <template>
-    <input type="text-area" />
+    <input v-model="input" @keydown.enter="sendMessage" />
 </template>
 
 <script>
 export default {
   name: 'UserInput',
-  props: {
-    msg: String
+  data() {
+      return {
+          input: ''
+      }
+  },
+  methods: {
+      sendMessage() {
+          console.log("sending message");
+          this.$emit('send-message', this.input);
+          this.input = '';
+      }
   }
 }
 </script>

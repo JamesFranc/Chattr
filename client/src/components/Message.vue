@@ -1,6 +1,6 @@
 <template>
     <div class="message">
-        {{ msg }}
+        {{ messageData?.message }}
     </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   name: 'Message',
   props: {
-    msg: String
+      messageData: Object
   }
 }
 </script>
