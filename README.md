@@ -12,9 +12,11 @@ Websockets were added for near-real time communication between the server and cl
 
 ## How to install
 In a terminal window navigate to a directory this repo will reside, then:
-`git clone https://github.com/JamesFranc/respondr.git`
-`yarn install`
-`yarn run`
+```
+git clone https://github.com/JamesFranc/respondr.git
+yarn install
+yarn run
+```
 
 The terminal should display the following output:
 ```
