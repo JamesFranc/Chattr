@@ -1,0 +1,11 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Jimmy Francis",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "ws": "^8.4.2"
+  }
+}
