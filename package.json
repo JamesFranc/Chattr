@@ -4,7 +4,7 @@
   "description": "Basic chat app client",
   "main": "index.js",
   "private": true,
-  "workspaces":["react-client", "vue-client", "server"],
+  "workspaces":["vue-client", "react-client", "server"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "concurrently --kill-others-on-fail \"yarn start-server\" \"yarn start-vue-client\" \"yarn start-react-client\"",
