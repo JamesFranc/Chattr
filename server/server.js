@@ -10,7 +10,7 @@ const server = http.createServer(app)
 
 const socketServer = new WebSocket.Server({ server })
 
-const port = process.env.PORT ? process.env.port : 3000
+const port = process.env.PORT ? process.env.port : 3001
 
 socketServer.on('connection', (webSocket) => {
     webSocket.binaryType = "blob";

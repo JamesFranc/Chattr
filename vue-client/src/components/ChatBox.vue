@@ -52,7 +52,7 @@ export default {
     return {
       messages: [],
       ws: null,
-      serverUrl: "ws://localhost:3000/ws",
+      serverUrl: "ws://localhost:3001/ws",
     };
   },
   computed: {

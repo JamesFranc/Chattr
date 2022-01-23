@@ -4,12 +4,15 @@
   "description": "Basic chat app client",
   "main": "index.js",
   "private": true,
-  "workspaces":["client", "server"],
+  "workspaces":["react-client", "vue-client", "server"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "concurrently --kill-others-on-fail \"yarn start-server\" \"yarn start-client\"",
+    "serve": "concurrently --kill-others-on-fail \"yarn start-server\" \"yarn start-vue-client\" \"yarn start-react-client\"",
+    "serve-vue": "concurrently --kill-others-on-fail \"yarn start-server\" \"yarn start-vue-client\"",
+    "serve-react": "concurrently --kill-others-on-fail \"yarn start-server\" \"yarn start-react-client\"",
     "start-server": "node ./server/server.js",
-    "start-client": "cd ./client && vue-cli-service serve"
+    "start-vue-client": "cd ./vue-client && vue-cli-service serve",
+    "start-react-client": "cd ./react-client && yarn start"
   },
   "repository": {
     "type": "git",

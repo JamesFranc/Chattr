@@ -23,7 +23,7 @@ The terminal should display the following output:
 $ concurrently "yarn start-server" "yarn start-client"
 $ node ./server/server.js
 $ cd ./client && vue-cli-service serve
-[0] Server listening on port 3000
+[0] Server listening on port 3001
 [1]  INFO  Starting development server...
 [1]  DONE  Compiled successfully in 1157ms4:12:35 AM
 [1]
