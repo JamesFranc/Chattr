@@ -1,7 +1,9 @@
+import React from 'react';
 import logo from './logo.svg';
+// import { Counter } from './features/counter/Counter';
+import UserSelect from './features/chat/components/UserSelect';
+import ChatBox from './features/chat/components/ChatBox';
 import './App.css';
-import ChatBox from './components/ChatBox';
-import UserSelect from './components/UserSelect';
 
 function App() {
   return (
